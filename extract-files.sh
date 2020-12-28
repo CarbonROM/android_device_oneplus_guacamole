@@ -14,8 +14,8 @@ fi
 
 set -e
 
-export DEVICE=guacamole
-export DEVICE_COMMON=sm8150-common
+export DEVICE=enchilada
+export DEVICE_COMMON=sdm845-common
 export VENDOR=oneplus
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
